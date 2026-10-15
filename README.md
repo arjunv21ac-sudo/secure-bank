@@ -1,5 +1,8 @@
 # 🏦 SecureBank: Mini Banking App
 
+**🔗 Live demo:** https://secure-bank-beta.vercel.app · **API docs:** https://securebank-api-b2jp.onrender.com/swagger-ui.html
+<sub>(Free hosting: the first request may take about a minute while the backend wakes up. Demo logins are listed below.)</sub>
+
 A full stack banking application. Customers open accounts (approved by bank staff), deposit, withdraw and **transfer money safely**, see their history and download **PDF statements**. The focus is on getting money right under failure and concurrency: **all-or-nothing transfers, no deadlocks, no double payments, no overdrafts**.
 
 ## Tech stack
