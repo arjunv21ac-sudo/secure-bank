@@ -1,0 +1,13 @@
+# Normalize line endings in the repository
+* text=auto
+
+# Shell scripts must keep Unix line endings or they fail on Linux/Docker
+mvnw text eol=lf
+*.sh text eol=lf
+
+# Windows scripts keep Windows line endings
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jar binary
